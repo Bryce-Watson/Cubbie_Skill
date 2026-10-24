@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "allergies": [
+    {"item": "peanuts", "severity": "severe"}
+  ],
+  "diet": ["vegetarian"],
+  "dislikes": ["mushrooms"],
+  "favorites": ["mexican", "spicy"],
+  "kitchen": ["microwave", "stove"],
+  "staples": ["rice", "olive oil", "salt"],
+  "stores_like": [],
+  "stores_avoid": [],
+  "loyalty_cards": [],
+  "liked_recipes": ["Black bean fried rice"],
+  "disliked_recipes": [],
+  "budget": "$5 a meal",
+  "location": "78705",
+  "travel": "bus",
+  "cook_time": "30 min",
+  "servings": "1",
+  "offers": {},
+  "updated_at": null
+}
