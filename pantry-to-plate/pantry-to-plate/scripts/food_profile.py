@@ -8,6 +8,7 @@ Skill updates, and nothing in it changes unless one of these commands changes it
     python3 scripts/food_profile.py show
     python3 scripts/food_profile.py add --allergy 'peanuts:severe' --diet 'vegetarian'
     python3 scripts/food_profile.py set --budget '$5 a meal' --location '78705' --kitchen 'microwave'
+    python3 scripts/food_profile.py set --nutrition-goal '2000 cal a day, high protein'
     python3 scripts/food_profile.py set --no-allergies
     python3 scripts/food_profile.py remove --dislike 'mushrooms'
     python3 scripts/food_profile.py remove --allergy 'peanuts' --confirmed
@@ -57,6 +58,7 @@ SCALAR_FIELDS = {
     "travel": ("travel", "travel"),
     "cook-time": ("cook_time", "cooking time"),
     "servings": ("servings", "servings"),
+    "nutrition-goal": ("nutrition_goal", "nutrition goal"),
 }
 LABELS = {key: label for key, label in list(LIST_FIELDS.values()) + list(SCALAR_FIELDS.values())}
 LOWERCASE = {"diet", "dislikes", "favorites", "kitchen", "staples"}  # store and recipe names keep their case

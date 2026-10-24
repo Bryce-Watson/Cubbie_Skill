@@ -18,6 +18,7 @@
   "travel": "bus",
   "cook_time": "30 min",
   "servings": "1",
+  "nutrition_goal": null,
   "offers": {},
   "updated_at": null
 }
